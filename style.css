@@ -129,10 +129,11 @@ color: white;
 }
 .html .html-head img{
     width: 30%;
-    height: fit-content;
+    height: auto;
 }
 .html .html-head .python-img{
     width: 18%;
+    height: auto;
     margin: 1.9rem;
 }
 .html-card-container{
@@ -168,7 +169,7 @@ color: white;
 .html-card-container .html-card img{
     width: 30%;
     min-width: 150px;
-    height: fit-content;
+    height: auto;
     border-radius: 20px;
 }
 
