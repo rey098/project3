@@ -18,3 +18,6 @@ const observer1 = new IntersectionObserver((entries)=>{
     });
 });
 elements1.forEach(el => observer1.observe(el));
+document.addEventListener("click", function(){
+    document.getElementById("bgm").play();
+}, { once: true});
